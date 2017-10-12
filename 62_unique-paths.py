@@ -15,5 +15,3 @@ class Solution(object):
                     arr[i].append(arr[i - 1][j] + arr[i][j - 1])
         return arr[m - 1][n - 1]
 
-a = Solution()
-a.uniquePaths(1, 2)

@@ -29,9 +29,3 @@ class Solution(object):
                         start, end = tmp, i + 1
         
         return s[start: end]
-
-a = Solution()
-a.minWindow('ADOBECODEBANC', 'ABC')
-a.minWindow('aaaaaaa', 'aaaaa')
-a.minWindow('aa', 'aaaaa')
-a.minWindow("cabwefgewcwaefgcf", "cae")

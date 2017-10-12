@@ -12,8 +12,5 @@ class Solution(object):
             for j in range(i, len(words)):
                 if not flags[i][0] & flags[j][0]:
                     maxNum = max(maxNum, flags[i][1] * flags[j][1])
-        print(maxNum)
         return maxNum
 
-a = Solution()
-a.maxProduct(["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]);

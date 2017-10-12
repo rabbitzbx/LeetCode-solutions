@@ -22,12 +22,5 @@ class Solution(object):
                 if i == totalLen / 2:
                     return (totalNum + num) / 2
             elif i == (totalLen - 1) / 2:
-                print(num)
                 return num
 
-
-a = Solution()
-a.findMedianSortedArrays([1], [])
-a.findMedianSortedArrays([1, 3], [2])
-a.findMedianSortedArrays([1, 2], [3, 4])
-a.findMedianSortedArrays([1, 3], [2, 4])

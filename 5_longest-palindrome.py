@@ -16,7 +16,3 @@ class Solution:
                 start = i - maxLen - 1
                 maxLen = maxLen + 2
         return s[start:start + maxLen]
-
-a = Solution()
-a.longestPalindrome('cbbd')
-a.longestPalindrome('babad')

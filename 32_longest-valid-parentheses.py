@@ -20,9 +20,3 @@ class Solution(object):
 
         return maxLen
 
-a = Solution()
-a.longestValidParentheses('()')
-a.longestValidParentheses('())')
-a.longestValidParentheses('()(()')
-a.longestValidParentheses('()(())')
-a.longestValidParentheses(')()())')

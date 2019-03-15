@@ -8,7 +8,7 @@ class Solution(object):
             return 0
 
         m, n = len(grid), len(grid[0])
-        dp = [[0] * n] * m
+        dp = [[0] * n for i in range(m)]
 
         for i in range(m):
             for j in range(n):
@@ -20,5 +20,5 @@ class Solution(object):
                     dp[i][j] = dp[i - 1][j] + grid[i][j]
                 else:
                     dp[i][j] = min(dp[i][j - 1], dp[i - 1][j]) + grid[i][j]
-        
+
         return dp[m - 1][n - 1]

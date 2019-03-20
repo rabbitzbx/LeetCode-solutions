@@ -31,8 +31,3 @@ class Solution(object):
                 current += 1
 
         return result
-
-a = Solution()
-print(a.generateMatrix(4))
-print(a.generateMatrix(5))
-print(a.generateMatrix(6))
